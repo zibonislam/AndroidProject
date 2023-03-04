@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/tree"
+    tools:context=".RegistratonActivity">
+
+    <TextView
+        android:id="@+id/textViewUser"
+        android:layout_width="290dp"
+        android:layout_height="90dp"
+        android:text="Manpower"
+        android:textAlignment="center"
+        android:textColor="#D12424"
+
+
+        android:textSize="40dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.504"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.024" />
+
+    <TextView
+        android:id="@+id/textViewPassword"
+        android:layout_width="408dp"
+        android:layout_height="108dp"
+        android:text="Registration"
+        android:textAlignment="center"
+        android:textColor="@color/design_default_color_secondary"
+        android:textSize="30dp"
+        app:drawableBottomCompat="@drawable/userlogo"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.333"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.195" />
+
+    <EditText
+        android:id="@+id/editTextTextUsername"
+        android:layout_width="251dp"
+        android:layout_height="59dp"
+        android:drawableLeft="@drawable/ic_baseline_person_24"
+        android:ems="10"
+
+        android:hint=" UserName"
+        android:inputType="textPersonName"
+        android:textColor="@color/blueback"
+        android:textColorHint="@color/blueback"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.437"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.4" />
+
+    <EditText
+        android:id="@+id/editTextTextDescription"
+        android:layout_width="261dp"
+        android:layout_height="61dp"
+        android:drawableLeft="@drawable/info"
+        android:ems="10"
+
+        android:hint=" Description"
+        android:inputType="textPersonName"
+        android:textColor="@color/blueback"
+        android:textColorHint="@color/blueback"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.466"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.534" />
+
+    <EditText
+        android:id="@+id/editTextTextPassword"
+        android:layout_width="261dp"
+        android:layout_height="61dp"
+        android:drawableLeft="@drawable/ic_baseline_security_24"
+        android:ems="10"
+
+        android:hint=" Password"
+        android:inputType="textPersonName"
+        android:textColor="@color/blueback"
+        android:textColorHint="@color/blueback"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.67" />
+
+    <EditText
+        android:id="@+id/editTextTextConfirmPassword"
+        android:layout_width="261dp"
+        android:layout_height="61dp"
+        android:drawableLeft="@drawable/ic_baseline_security_24"
+        android:ems="10"
+
+        android:hint=" Confirm password"
+        android:inputType="textPersonName"
+        android:textColor="@color/blueback"
+        android:textColorHint="@color/blueback"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.807" />
+
+    <Button
+        android:id="@+id/buttonRegistration"
+        android:layout_width="136dp"
+        android:layout_height="52dp"
+        android:text=" Register"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.483"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextConfirmPassword"
+        app:layout_constraintVertical_bias="0.298" />
+
+    <TextView
+        android:id="@+id/textViewRegistration"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:text="Back To Login"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>
